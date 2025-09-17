@@ -4,7 +4,8 @@ A PowerShell script for performing batch password resets in Active Directory env
 
 ## Features
 * Batch Processing: Reset multiple user passwords from a CSV file
-* Safety Confirmation: Prompts user to confirm before making any changes
+* Safety Confirmation: Prompts user to confirm before making any changes <img width="600" height="39" alt="Screenshot 2025-09-17 234456" src="https://github.com/user-attachments/assets/de013f04-8384-431c-ad4e-96673ec5b9f1" />
+
 * Comprehensive Logging: All actions are logged with timestamps to a file
 * Error Handling: Gracefully handles and logs any failures during password reset
 * Security Focus: Generated passwords are not displayed or logged
@@ -31,6 +32,8 @@ A PowerShell script for performing batch password resets in Active Directory env
      jane.smith
    
      mike.johnson
+     
+<img width="294" height="383" alt="Screenshot 2025-09-18 000630" src="https://github.com/user-attachments/assets/83576c7b-fd6b-4278-87bd-642c7297303d" />
 
 ### 2. Update the script path:
   
@@ -45,9 +48,14 @@ A PowerShell script for performing batch password resets in Active Directory env
    .\PasswordReset.ps1
 3. Review the number of users to be processed
 4. Type "yes" to confirm and proceed, or anything else to cancel
-5. Monitor the output for success/failure messages
+5. Monitor the output for success/failure messages <img width="941" height="245" alt="Screenshot 2025-09-18 000825" src="https://github.com/user-attachments/assets/b8004834-c49e-47e8-ac9a-3e6661b1416f" />
+
 6. Check the log file for a complete record: C:\PasswordReset.log
-   
+<img width="411" height="314" alt="Screenshot 2025-09-18 001237" src="https://github.com/user-attachments/assets/fe00eb41-9da6-4a24-aa0d-ab667e485827" /> 
+<img width="1004" height="332" alt="Screenshot 2025-09-18 001246" src="https://github.com/user-attachments/assets/a1466825-94dc-4b59-9929-83c2eb54c6c6" />
+
+
+
 ## Output 
 
 ### The script provides:
