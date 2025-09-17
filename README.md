@@ -61,11 +61,11 @@ A PowerShell script for performing batch password resets in Active Directory env
 
 You are about to reset the password for 3 users. Continue? (Yes/No): yes
 
-✅ Password for john.doe has been reset on 17-09-2025 22:08:56. User must change it at next login.
+[SUCCESS] Password for john.doe has been reset on 17-09-2025 22:08:56. User must change it at next login.
 
-✅ Password for jane.smith has been reset on 17-09-2025 22:08:57. User must change it at next login.
+[SUCCESS] Password for jane.smith has been reset on 17-09-2025 22:08:57. User must change it at next login.
 
-❌ Failed to reset password for mike.johnson - The specified account does not exist
+[ERROR] Failed to reset password for mike.johnson - The specified account does not exist
 
 ### Security Notes
 * Generated passwords are 12 characters long with at least 1 special character
