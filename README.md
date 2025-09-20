@@ -40,7 +40,7 @@ A PowerShell script for performing batch password resets in Active Directory env
   * Modify the $csvPath variable to point to your CSV file location
   * Default: C:\Users\administrator\Desktop\Users.csv
 
-### Usage
+## Usage
     
 1. Place your CSV file in the specified location
 2. Run the script in PowerShell:
@@ -65,7 +65,7 @@ A PowerShell script for performing batch password resets in Active Directory env
 * Success Messages: Confirmation when passwords are reset successfully
 * Error Messages: Detailed information when operations fail 
 
-### Example Output
+## Example Output
 
 You are about to reset the password for 3 users. Continue? (Yes/No): yes
 
@@ -75,20 +75,20 @@ You are about to reset the password for 3 users. Continue? (Yes/No): yes
 
 [ERROR] Failed to reset password for mike.johnson - The specified account does not exist
 
-### Security Notes
+## Security Notes
 * Generated passwords are 12 characters long with at least 1 special character
 * Temporary passwords are never displayed or logged for security
 * Users are forced to change passwords at next login
 * All operations are logged for audit purposes
 
-### Error Handling
+## Error Handling
 
 The script handles common scenarios:
 * Missing or inaccessible CSV files
 * Non-existent user accounts
 * Permission-related errors
 
-### Author
+## Author
 
 Created as part of a PowerShell learning portfolio to demonstrate:
 * Active Directory management
@@ -96,6 +96,6 @@ Created as part of a PowerShell learning portfolio to demonstrate:
 * User input validation
 * Security best practices
   
-### License
+## License
 
 This project is open source and available under the MIT License.
