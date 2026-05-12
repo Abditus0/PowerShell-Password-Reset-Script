@@ -60,7 +60,7 @@ Requires PowerShell 5.1 or 7+ and the Active Directory module installed on the m
 
 ## What I learned
 
-The biggest thing was how careful you have to be with anything that touches a lot of accounts at once. A script that resets one password is fine. A script that resets 50 passwords needs a confirmation prompt, error handling that doesn't fail the whole batch, and a log file so you can prove what happened later. The blast radius gets bigger the more automation you add.
+The biggest thing was how careful you have to be with anything that touches a lot of accounts at once. A script that resets one password is fine. A script that resets 50+ passwords needs a confirmation prompt, error handling that doesn't fail the whole batch, and a log file so you can prove what happened later. The blast radius gets bigger the more automation you add.
 
 Other things that came out of this:
 
@@ -70,4 +70,4 @@ Other things that came out of this:
 
 ## Why I built it
 
-Mass password resets are one of those things that come up in real IT work and there isn't really a built-in tool for it. You can do it manually in ADUC, but only if you have an afternoon to kill. Most admins end up writing a version of this script eventually. Now I've written one with the safety rails I'd want if I ran it in production: confirmation prompt, no plaintext output, full audit log, errors that don't kill the batch.
+Mass password resets is something that comes up in real IT work. You can do it manually in ADUC, but only if you have an afternoon to kill. Most admins end up writing a version of this script eventually.
